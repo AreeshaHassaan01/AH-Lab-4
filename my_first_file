@@ -29,6 +29,15 @@ class Program
         num2 = Convert.ToInt32(Console.ReadLine());
         subtract = num1 - num2;
         Console.WriteLine("The subtraction of {0} from {1} is: {2}", num1, num2, subtract);
+
+        int number1, number2, multiply;
+        Console.WriteLine("Enter the first number:");
+        number1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter the second number:");
+        number2 = Convert.ToInt32(Console.ReadLine());
+        multiply = number1 * number2;
+        Console.WriteLine("The multiplication of {0} and {1} is: {2}", number1, number2, multiply);
+
         Console.ReadLine();
     }
 }
